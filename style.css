@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  html{
+       text-align: center;
+  }
+
+  #nameDiv{
+    margin-top: 50px;
+  }
+
+  .input{
+    font-size: 25px;
+    color: #004d00;
+    font-weight: 700;
+    font-family: cursive; 
+    margin: 20px;
+  }
+  .card{
+    margin: 20px;
+  }
+
+  
+  table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+  }
+  table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+  }
+  th{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial;
+    color: #004d00;
+    
+  }
+  td{
+    font-size: 25px;
+    color: crimson;
+    font-weight: 400;
+    font-family: Georgia;
+   
+  }

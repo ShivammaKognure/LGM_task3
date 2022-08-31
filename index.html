@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet"href="style.css">
+    
+    <title>Student Form</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark" style="background-color: tomato">
+          <div>
+              <div class="navbar-brand">Student Management </div>
+          </div>
+
+          
+      </nav>
+    </header>
+  
+<div class="row">
+  <div class="column">
+    <div class="container col-md-10">
+      <div class="card">
+        <div class="card-body">
+    
+          <h1>Student Form</h1>
+         <div id ="nameDiv" class="input">Name:<input id="name" type="text" placeholder="Enter Name"/></div>
+          
+         <div class="input">Email:<input id="email" type="text" placeholder="Enter Email"/></div>
+          
+         <div class="input">Website:<input id="website" type="text" placeholder="Enter Website"/> </div>
+        
+         <div class="input">Contact:<input id="contact" type="text" placeholder="Enter Contact"/></div>
+         
+         <button type="submit" class="btn btn-success" id="entry">Submit</button>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="column">
+    <div class="container col-md-10">
+      <div class="card">
+        <div class="card-body">
+          <h1>Enrolled Students</h1>
+          <table id="display">
+           <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Website</th>
+            <th>Contact</th>  
+           </tr> 
+          </table>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
